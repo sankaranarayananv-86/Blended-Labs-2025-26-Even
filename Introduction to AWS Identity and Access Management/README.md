@@ -1,4 +1,4 @@
-# Lab 1 – Introduction to AWS Identity and Access Management (IAM)
+# Lab 1 - Introduction to AWS Identity and Access Management (IAM)
 
 ## Title
 Introduction to AWS Identity and Access Management (IAM)
@@ -13,7 +13,6 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - AWS Academy Lab access  
 - Web browser with internet connectivity  
 
----
 
 ## Tools Used
 - AWS Management Console  
@@ -67,6 +66,6 @@ This lab provided hands-on experience with AWS IAM by demonstrating how organiza
 
 
 ## Author
-**Name:** Your Name 
+**Name:** Your Name and (Reg No)
 **Course:** Introduction to Cloud Computing  
-**Institution:** (Add your institution name)
+
