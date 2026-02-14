@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: SANKARA NARAYANAN V
+* **Register Number**: 212223060246
+* **Date of Submission**: 14-02-2026
 
 ---
 
@@ -85,13 +85,17 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+* I started the lab and logged into the Amazon Web Services Management Console in the N. Virginia (us-east-1) region.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+* I created a custom VPC using Amazon VPC, configured public and private subnets, and enabled an Internet Gateway and NAT Gateway to manage internet connectivity.
+
+* I added additional public and private subnets in a second Availability Zone and updated the route tables to ensure proper routing for both internet-facing and private traffic.
+
+* I created a Security Group named Web Security Group and configured it to allow HTTP (port 80) access from anywhere to enable web traffic.
+
+* I launched an EC2 instance using Amazon EC2 in the public subnet, enabled auto-assign public IP, attached the security group, and selected the required key pair.
+
+* I configured a user data script to automatically install Apache and deploy a web application, then verified the web server by accessing the instance’s public DNS in a browser.
 
 ---
 
@@ -99,21 +103,20 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1919" height="885" alt="Screenshot 2026-02-13 220522" src="https://github.com/user-attachments/assets/830f4243-4cac-406d-be77-724aec9b4203" />
+<img width="1915" height="882" alt="Screenshot 2026-02-13 221113" src="https://github.com/user-attachments/assets/35f37fa3-1162-4347-a749-e9c12bf67614" />
 
----
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1919" height="882" alt="Screenshot 2026-02-13 222525" src="https://github.com/user-attachments/assets/49194a78-744a-4915-95bc-0c7db8e64460" />
+<img width="1917" height="889" alt="Screenshot 2026-02-13 222859" src="https://github.com/user-attachments/assets/5abf94df-e4f2-4861-8796-220e6ddfc42e" />
 
----
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1914" height="881" alt="Screenshot 2026-02-13 223116" src="https://github.com/user-attachments/assets/813c83b2-a5e7-4bb3-968c-10b969f1f32f" />
 
----
 
 ## Result 
 
