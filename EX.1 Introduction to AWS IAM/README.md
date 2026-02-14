@@ -74,7 +74,7 @@ This lab provided hands-on experience with AWS IAM by demonstrating how organiza
 
 ## Author
 
-**Name : CHANDRU M - 212224230041**
+**Name : SANKARA NARAYANAN V - 212223060246**
 
 **Course: Introduction to Cloud Computing**  
 
