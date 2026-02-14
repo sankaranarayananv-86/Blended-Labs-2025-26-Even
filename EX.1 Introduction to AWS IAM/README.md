@@ -1,6 +1,6 @@
 # Lab 1 - Introduction to AWS Identity and Access Management (IAM)
 
-## Title
+## Title 
 Introduction to AWS Identity and Access Management (IAM)
 
 
